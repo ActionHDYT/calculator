@@ -8,7 +8,7 @@ function calculate() {
     container.innerHTML = result
 }
 
-function clear() {
-    container.innerHTML = ''
-    
+function clear_result() {
+    let container = document.getElementById("result");
+    container.innerHTML = "";
 }
